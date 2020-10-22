@@ -1,0 +1,13 @@
+<h2>TASK 3</h2>
+<p id="msgid">Press button to enter number and message</p> 
+<button onclick="displaymsg()">Try it</button>
+<br>
+<br>
+
+<script type="text/javascript">
+function displaymsg(){
+	var num =  prompt("Enter number");
+	var msg = prompt("Enter message");
+	document.getElementById("msgid").innerHTML = 	msg.repeat([num]);
+}
+</script>
