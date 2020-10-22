@@ -1,0 +1,15 @@
+<h2>Task 2</h2>
+
+<button onclick="myFunction()">Try it</button>
+
+<script type="text/javascript">
+function myFunction() {
+  var person = prompt("What is capital of Pakistan", "Islamabad");
+  if (person != null& person=='Islamabad') {
+    alert("Correct Answer")
+  }
+  else
+  	alert("wrong Answer")
+}
+
+</script>
